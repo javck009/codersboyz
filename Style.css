@@ -1,0 +1,140 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,300&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: 'Raleway', sans-serif;
+}
+/* header-nav-bar */ 
+.nav_bar{
+  width: 100%;
+  height: 4rem;
+  background-color:#57606f;
+  display: flex;
+  position: relative;
+}
+.left{
+  line-height:4rem ;
+  float: left;
+  
+}
+.left span img{
+  padding-top: 8px;
+  width: 40px;
+  height: 40px;
+  
+  margin-left: 2rem;
+  /* transition: .6s all; */
+}
+
+.left h1{
+  position: relative;
+  left: 6rem;
+  bottom:4rem;
+}
+.right{
+  float: right;
+  line-height: 4rem;
+  position:absolute;
+  right: 0px;
+  
+}
+#search{
+  padding: 10px;
+  width: 6rem;
+  border-radius: 100px;
+  background-color: transparent;
+  border: 2px solid white;
+  outline: none;
+}
+/* slide-bar */
+#right-slide{
+  
+  /* height: 90vh; */
+  opacity: .8;
+  display:none ;
+  /* width: 200px; */
+  transition: .6s all;
+ background-color: black;
+ position: absolute;
+ z-index:2;
+ width: 200px;
+  height: 90vh;
+}
+.link-al-page{
+  color: white;
+  padding-bottom: 15px;
+ margin-left: 2.5rem;
+ 
+}
+.link-al-page a{
+  color: white;
+}
+#right-slide  img{
+  float: right;
+  width: 20px;
+  height: 20px;
+}
+
+
+/* main-contant */
+.card-main{
+  display: flex;
+  flex-direction: column;
+   justify-content:center;
+  align-items: center;
+}
+.card-yt-link{
+  width:18rem;
+  height:9rem ;
+  border-radius: 10px;
+  border: 1px solid grey;
+  margin: 10px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+/* footer-contant*/
+.footer{ 
+  width: 100%;
+  height:14rem;
+  background-color:#576574 ;
+}
+/* left-properti */
+.f-left{
+  float: left;
+  /* padding-bottom: 5px; */
+}
+.f-left li {
+   padding-bottom:10px;
+}
+.f-left a{
+  color: white;
+}
+.f-left li a img{
+  width: 20px;
+  height: 15px;
+}
+/* right-properti */
+.f-right{
+  float: right;
+ 
+}
+.f-right li a img{
+  width: 20px;
+  height: 20px;
+}
+.f-right li {
+   padding-bottom: 10px;
+}
+.f-right a{
+  color: white;
+}
+.f-copyright{
+  /* float: bottom; */
+  position: relative;
+  top: 11rem;
+  left: -1rem;
+}
